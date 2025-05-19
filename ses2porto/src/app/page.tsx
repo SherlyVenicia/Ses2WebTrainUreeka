@@ -48,8 +48,8 @@ export default function HomePage() {
                 <Image
                   src="/images/profile.jpg"
                   alt="Profile Image"
-                  width={600}
-                  height={600}
+                  width={300}
+                  height={300}
                   className="aspect-square overflow-hidden rounded-full object-cover border-4 border-border"
                   priority
                 />

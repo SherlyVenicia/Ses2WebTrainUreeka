@@ -48,20 +48,19 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold mb-6">Education</h2>
                 <div className="space-y-6">
                   <div className="rounded-lg border bg-background p-6">
-                    <h3 className="text-xl font-bold">Master of Computer Science</h3>
-                    <p className="text-muted-foreground">Stanford University</p>
-                    <p className="text-sm text-muted-foreground">2018 - 2020</p>
+                    <h3 className="text-xl font-bold">Bachelor of Computer Science</h3>
+                    <p className="text-muted-foreground">Bina Nusantara University</p>
+                    <p className="text-sm text-muted-foreground">2023 - 2027</p>
                     <p className="mt-2">
-                      Specialized in Human-Computer Interaction and Artificial Intelligence. Graduated with honors.
+                      adsd
                     </p>
                   </div>
                   <div className="rounded-lg border bg-background p-6">
-                    <h3 className="text-xl font-bold">Bachelor of Science in Computer Engineering</h3>
-                    <p className="text-muted-foreground">MIT</p>
-                    <p className="text-sm text-muted-foreground">2014 - 2018</p>
+                    <h3 className="text-xl font-bold">High School Graduate</h3>
+                    <p className="text-muted-foreground">Immanuel Bilingual Class</p>
+                    <p className="text-sm text-muted-foreground">2020 - 2023</p>
                     <p className="mt-2">
-                      Focused on software engineering and web technologies. Participated in multiple hackathons and
-                      coding competitions.
+                      Focused on science and technologies.
                     </p>
                   </div>
                 </div>
@@ -71,19 +70,19 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="rounded-lg border bg-background p-4">
                     <h3 className="font-medium">Frontend Development</h3>
-                    <p className="text-sm text-muted-foreground">React, Next.js, Vue, HTML, CSS, JavaScript</p>
+                    <p className="text-sm text-muted-foreground">Next.js, HTML, CSS, JavaScript, Flutter</p>
                   </div>
                   <div className="rounded-lg border bg-background p-4">
                     <h3 className="font-medium">Backend Development</h3>
-                    <p className="text-sm text-muted-foreground">Node.js, Express, Python, Django, SQL, MongoDB</p>
+                    <p className="text-sm text-muted-foreground">Node.js, Python, SQL</p>
                   </div>
                   <div className="rounded-lg border bg-background p-4">
                     <h3 className="font-medium">UI/UX Design</h3>
-                    <p className="text-sm text-muted-foreground">Figma, Adobe XD, Sketch, User Research</p>
+                    <p className="text-sm text-muted-foreground">Figma and User Research</p>
                   </div>
                   <div className="rounded-lg border bg-background p-4">
-                    <h3 className="font-medium">DevOps</h3>
-                    <p className="text-sm text-muted-foreground">Docker, Kubernetes, CI/CD, AWS, Vercel</p>
+                    <h3 className="font-medium">Hmm</h3>
+                    <p className="text-sm text-muted-foreground">mikir dl bisa apa lagi hehe</p>
                   </div>
                 </div>
               </div>
@@ -104,61 +103,18 @@ export default function AboutPage() {
                   <div className="aspect-video overflow-hidden">
                     <Image
                       src="/placeholder.svg?height=400&width=600"
-                      alt="Tech Innovators Inc."
+                      alt="pic"
                       width={600}
                       height={400}
                       className="object-cover transition-transform group-hover:scale-105"
                     />
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold">Senior Frontend Developer</h3>
-                    <p className="text-sm text-muted-foreground">Tech Innovators Inc.</p>
-                    <p className="text-sm text-muted-foreground">2020 - Present</p>
+                    <h3 className="text-xl font-bold">Professional Daughter</h3>
+                    <p className="text-sm text-muted-foreground">Mommy and Daddy UvU</p>
+                    <p className="text-sm text-muted-foreground">2005 - present</p>
                     <p className="mt-2">
-                      Leading the frontend development team in creating responsive and accessible web applications.
-                      Implementing modern UI/UX designs and optimizing performance.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="group relative overflow-hidden rounded-lg border">
-                  <div className="aspect-video overflow-hidden">
-                    <Image
-                      src="/placeholder.svg?height=400&width=600"
-                      alt="Digital Solutions Co."
-                      width={600}
-                      height={400}
-                      className="object-cover transition-transform group-hover:scale-105"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold">Full-Stack Developer</h3>
-                    <p className="text-sm text-muted-foreground">Digital Solutions Co.</p>
-                    <p className="text-sm text-muted-foreground">2018 - 2020</p>
-                    <p className="mt-2">
-                      Developed and maintained web applications using React and Node.js. Collaborated with designers to
-                      implement UI/UX improvements.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="group relative overflow-hidden rounded-lg border">
-                  <div className="aspect-video overflow-hidden">
-                    <Image
-                      src="/placeholder.svg?height=400&width=600"
-                      alt="Web Wizards LLC"
-                      width={600}
-                      height={400}
-                      className="object-cover transition-transform group-hover:scale-105"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold">Web Developer Intern</h3>
-                    <p className="text-sm text-muted-foreground">Web Wizards LLC</p>
-                    <p className="text-sm text-muted-foreground">Summer 2017</p>
-                    <p className="mt-2">
-                      Assisted in developing websites for clients. Gained experience in HTML, CSS, JavaScript, and
-                      responsive design principles.
+                      desc 1
                     </p>
                   </div>
                 </div>
@@ -192,9 +148,6 @@ export default function AboutPage() {
       </main>
       <footer className="w-full border-t py-6">
         <div className="container flex flex-col items-center justify-center gap-4 md:flex-row md:gap-8">
-          <p className="text-center text-sm leading-loose text-muted-foreground">
-            © 2024 Portfolio. All rights reserved.
-          </p>
           <div className="flex gap-4">
             <Link href="#" className="text-sm font-medium hover:underline underline-offset-4">
               Twitter
